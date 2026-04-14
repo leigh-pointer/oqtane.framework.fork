@@ -1,4 +1,5 @@
 using System;
+using Oqtane.Models;
 
 namespace Oqtane.Shared
 {
@@ -90,10 +91,12 @@ namespace Oqtane.Shared
         public const string DefaultTextEditor = "Oqtane.Modules.Controls.RadzenTextEditor, Oqtane.Client";
 
         // obtained from https://cdnjs.com/libraries/bootstrap
-        public const string BootstrapScriptUrl = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js";
-        public const string BootstrapScriptIntegrity = "sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw==";
-        public const string BootstrapStylesheetUrl = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css";
-        public const string BootstrapStylesheetIntegrity = "sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==";
+        //<script type = "module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-6xXf8RXZifPk2HvTHN+FibNWWTvb2SRWQ4CsJwnijEtQ9kFLCJ4W2dagiH8NA/TV" crossorigin="anonymous"></script>
+        //<link href = "https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-y8u0PH/fMQTYvzO/jTxOy3yYb5Qe1BaatU87ucHWXmVHag50rZBVh3Qhd4LXMr1R" crossorigin="anonymous">
+        public const string BootstrapScriptUrl = "https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha1/dist/js/bootstrap.bundle.min.js";
+        public const string BootstrapScriptIntegrity = "sha384-6xXf8RXZifPk2HvTHN+FibNWWTvb2SRWQ4CsJwnijEtQ9kFLCJ4W2dagiH8NA/TV";
+        public const string BootstrapStylesheetUrl = "https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha1/dist/css/bootstrap.min.cs";
+        public const string BootstrapStylesheetIntegrity = "sha384-y8u0PH/fMQTYvzO/jTxOy3yYb5Qe1BaatU87ucHWXmVHag50rZBVh3Qhd4LXMr1R";
 
         public const string CookieConsentCookieName = "Oqtane.CookieConsent";
         public const string CookieConsentCookieValue = "yes";
